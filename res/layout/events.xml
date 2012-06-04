@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:orientation="vertical">
+    <TabHost
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/thEvents">
+        <LinearLayout
+                android:layout_height="fill_parent"
+                android:layout_width="fill_parent"
+                android:orientation="vertical">
+            <TabWidget android:layout_height="wrap_content"
+                       android:layout_width="fill_parent"
+                       android:id="@android:id/tabs"/>
+            <FrameLayout
+                    android:layout_height="fill_parent"
+                    android:layout_width="fill_parent"
+                    android:id="@android:id/tabcontent">
+                <LinearLayout
+                        android:layout_height="fill_parent"
+                        android:layout_width="fill_parent"
+                        android:id="@+id/llEventsInfo">
+                    <WebView
+                            android:layout_height="fill_parent"
+                            android:layout_width="fill_parent"
+                            android:id="@+id/wvEventsInfo"
+                            />
+                </LinearLayout>
+                <LinearLayout
+                        android:layout_height="fill_parent"
+                        android:layout_width="fill_parent"
+                        android:id="@+id/llEventsBlog">
+                    <WebView
+                            android:layout_height="fill_parent"
+                            android:layout_width="fill_parent"
+                            android:id="@+id/wvEventsBlog"
+                            />
+                </LinearLayout>
+                <LinearLayout
+                        android:layout_height="fill_parent"
+                        android:layout_width="fill_parent"
+                        android:id="@+id/llEventsEvents">
+                    <WebView
+                            android:layout_height="fill_parent"
+                            android:layout_width="fill_parent"
+                            android:id="@+id/wvEventsEvents"
+                            />
+                </LinearLayout>
+            </FrameLayout>
+        </LinearLayout>
+    </TabHost>
+
+</LinearLayout>

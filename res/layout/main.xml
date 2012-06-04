@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_height="fill_parent"
+            android:layout_width="fill_parent"
+            android:orientation="vertical">
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/logo"
+                android:scaleType="fitCenter"
+                android:padding="5dp"
+                />
+
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_height="fill_parent"
+                android:layout_width="fill_parent"
+                android:gravity="center"
+                android:layout_weight="1"
+                >
+            <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:text="News and Events"
+                    android:id="@+id/bMainNews"
+                    android:layout_weight="1"
+                    android:layout_margin="5dp"
+                    />
+            <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:text="Contact Us"
+                    android:id="@+id/bMainContact"
+                    android:layout_weight="1"
+                    android:layout_margin="5dp"
+                    />
+        </LinearLayout>
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_height="fill_parent"
+                android:layout_width="fill_parent"
+                android:gravity="center"
+                android:layout_weight="1"
+                >
+            <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:text="Order Books"
+                    android:id="@+id/bMainOrders"
+                    android:layout_weight="1"
+                    android:layout_margin="5dp"
+                    />
+            <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:text="Store Info and Directions"
+                    android:id="@+id/bMainStoreInfo"
+                    android:layout_weight="1"
+                    android:layout_margin="5dp"
+                    />
+        </LinearLayout>
+    </LinearLayout>

@@ -3,5 +3,6 @@
     <string name="app_name">Wellesley Books</string>
     <string name="settings">Preferences</string>
     <string name="refresh">Reload</string>
+    <string name="wellesleyemail">Wellesley@WellesleyBooks.com</string>
     <string name="storeinfo">Hours:\n\nMonday - Saturday 9 am - 9 pm\nSundays 11 am - 6 pm\n\n82 Central Street\nWellesley, MA 02482\n(781) 431-1160\nfax (781) 431-0660 </string>
 </resources>

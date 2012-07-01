@@ -1,67 +1,108 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-                android:layout_width="fill_parent"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:orientation="vertical">
+    <TabHost
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/thContact">
+        <LinearLayout
                 android:layout_height="fill_parent"
+                android:layout_width="fill_parent"
                 android:orientation="vertical">
-    <ScrollView
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:layout_alignParentTop="true"
-            android:layout_above="@+id/bContactSendEmail">
+            <TabWidget android:layout_height="wrap_content"
+                       android:layout_width="fill_parent"
+                       android:id="@android:id/tabs"/>
+            <FrameLayout
+                    android:layout_height="fill_parent"
+                    android:layout_width="fill_parent"
+                    android:id="@android:id/tabcontent">
+                <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:orientation="vertical"
+                                android:id="@+id/rlContact1">
+                    <ScrollView
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_above="@+id/bContactSendEmail">
 
-    <RelativeLayout
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:layout_alignParentTop="true"
-            android:id="@+id/rlContactMain"
-            android:layout_above="@+id/bContactSendEmail"
-            >
-        <TextView
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:text="Send us an email"
-                android:id="@+id/tvContactSendEmail"
-                android:textSize="20dp"
-                android:gravity="center_horizontal"
-                />
-        <TextView
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:editable="false"
-                android:text="@string/wellesleyemail"
-                android:textSize="15dp"
-                android:layout_below="@+id/tvContactSendEmail"
-                android:id="@+id/etContactEmail"
-                android:layout_marginTop="10dp"
-                />
-        <EditText
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:hint="Email subject..."
-                android:textSize="15dp"
-                android:layout_below="@+id/etContactEmail"
-                android:id="@+id/etContactEmailSubject"
-                android:layout_marginTop="5dp"
-                android:inputType="textEmailSubject"
-                />
-        <EditText
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:hint="What's on your mind?"
-                android:textSize="15dp"
-                android:layout_below="@+id/etContactEmailSubject"
-                android:id="@+id/etContactEmailBody"
-                android:layout_marginTop="5dp"
-                />
-    </RelativeLayout>
-    </ScrollView>
-        <Button
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:text="Send Email"
-                android:id="@+id/bContactSendEmail"
-                android:layout_alignParentBottom="true"
+                        <RelativeLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentTop="true"
+                                android:id="@+id/rlContactMain"
+                                android:layout_above="@+id/bContactSendEmail"
+                                >
+                            <TextView
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:editable="false"
+                                    android:text="@string/wellesleyemail"
+                                    android:textSize="15dp"
+                                    android:id="@+id/etContactEmail"
+                                    android:layout_marginTop="10dp"
+                                    />
+                            <EditText
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:hint="Email subject..."
+                                    android:textSize="15dp"
+                                    android:layout_below="@+id/etContactEmail"
+                                    android:id="@+id/etContactEmailSubject"
+                                    android:layout_marginTop="5dp"
+                                    android:inputType="textEmailSubject"
+                                    />
+                            <EditText
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:hint="What's on your mind?"
+                                    android:textSize="15dp"
+                                    android:layout_below="@+id/etContactEmailSubject"
+                                    android:id="@+id/etContactEmailBody"
+                                    android:layout_marginTop="5dp"
+                                    />
+                        </RelativeLayout>
+                    </ScrollView>
+                    <Button
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Send Email"
+                            android:id="@+id/bContactSendEmail"
+                            android:layout_alignParentBottom="true"
 
-                />
-</RelativeLayout>
+                            />
+                </RelativeLayout>
+                <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:orientation="vertical"
+                        android:id="@+id/llContact1"
+                        >
+                    <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:src="@drawable/logo"
+                            android:scaleType="fitCenter"
+                            android:padding="5dp"
+                            />
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/hours"
+                        android:gravity="center"/>
+                    <Button
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:text="(781) 375-7363"
+                            android:id="@+id/bContactPhone"
+                            />
+                </LinearLayout>
+            </FrameLayout>
+        </LinearLayout>
+    </TabHost>
+</LinearLayout>

@@ -5,8 +5,4 @@
           android:icon="@drawable/refresh"
           android:title="@string/refresh"
           android:showAsAction="always" />
-    <item android:id="@+id/settings"
-          android:icon="@drawable/settings"
-          android:title="@string/settings"
-          android:showAsAction="always" />
 </menu>

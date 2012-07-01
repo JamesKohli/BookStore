@@ -13,12 +13,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d5502da4-702c-40b2-8f14-d328fad6e581" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/googlemaps.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/order.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/splash.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/bookstore/GoogleMap.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/bookstore/MapItemizedOverlay.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/bookstore/Splash.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BookStore/BookStore.apk.res" afterPath="$PROJECT_DIR$/out/production/BookStore/BookStore.apk.res" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BookStore/BookStore.apk.unaligned" afterPath="$PROJECT_DIR$/out/production/BookStore/BookStore.apk.unaligned" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BookStore/BookStore.apk" afterPath="$PROJECT_DIR$/out/production/BookStore/BookStore.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BookStore/classes.dex" afterPath="$PROJECT_DIR$/out/production/BookStore/classes.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BookStore/com/bookstore/Contact.class" afterPath="$PROJECT_DIR$/out/production/BookStore/com/bookstore/Contact.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BookStore/com/bookstore/Events.class" afterPath="$PROJECT_DIR$/out/production/BookStore/com/bookstore/Events.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BookStore/com/bookstore/MainMenu.class" afterPath="$PROJECT_DIR$/out/production/BookStore/com/bookstore/MainMenu.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BookStore/com/bookstore/R$drawable.class" afterPath="$PROJECT_DIR$/out/production/BookStore/com/bookstore/R$drawable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BookStore/com/bookstore/R$id.class" afterPath="$PROJECT_DIR$/out/production/BookStore/com/bookstore/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BookStore/com/bookstore/R$layout.class" afterPath="$PROJECT_DIR$/out/production/BookStore/com/bookstore/R$layout.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BookStore/com/bookstore/R$menu.class" afterPath="$PROJECT_DIR$/out/production/BookStore/com/bookstore/R$menu.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BookStore/com/bookstore/R$string.class" afterPath="$PROJECT_DIR$/out/production/BookStore/com/bookstore/R$string.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BookStore/com/bookstore/R$xml.class" afterPath="$PROJECT_DIR$/out/production/BookStore/com/bookstore/R$xml.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BookStore/com/bookstore/R.class" afterPath="$PROJECT_DIR$/out/production/BookStore/com/bookstore/R.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BookStore/com/bookstore/StoreInfo.class" afterPath="$PROJECT_DIR$/out/production/BookStore/com/bookstore/StoreInfo.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gen/com/bookstore/R.java" afterPath="$PROJECT_DIR$/gen/com/bookstore/R.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/contact.xml" afterPath="$PROJECT_DIR$/res/layout/contact.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/storeinfo.xml" afterPath="$PROJECT_DIR$/res/layout/storeinfo.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/menu/actionbar.xml" afterPath="$PROJECT_DIR$/res/menu/actionbar.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/menu/refreshactionbar.xml" afterPath="$PROJECT_DIR$/res/menu/refreshactionbar.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/strings.xml" afterPath="$PROJECT_DIR$/res/values/strings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/bookstore/Contact.java" afterPath="$PROJECT_DIR$/src/com/bookstore/Contact.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/bookstore/StoreInfo.java" afterPath="$PROJECT_DIR$/src/com/bookstore/StoreInfo.java" />
     </list>
     <ignored path="BookStore.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,71 +63,6 @@
   <component name="DebuggerManager">
     <line_breakpoints>
       <breakpoint url="file://$PROJECT_DIR$/src/com/bookstore/Events.java" line="52" class="com.bookstore.Events" package="com.bookstore">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="false" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/com/bookstore/Contact.java" line="29" class="com.bookstore.Contact" package="com.bookstore">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="false" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/com/bookstore/Contact.java" line="42" class="com.bookstore.Contact" package="com.bookstore">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="false" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/com/bookstore/Contact.java" line="41" class="com.bookstore.Contact" package="com.bookstore">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="false" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/com/bookstore/Contact.java" line="40" class="com.bookstore.Contact" package="com.bookstore">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="false" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/com/bookstore/Contact.java" line="39" class="com.bookstore.Contact" package="com.bookstore">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -156,10 +116,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="strings.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
+      <file leaf-file-name="Contact.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/bookstore/Contact.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="62" selection-start="258" selection-end="258" vertical-scroll-proportion="0.0">
+            <state line="48" column="68" selection-start="1328" selection-end="1328" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="order.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/res/layout/order.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="54" selection-start="229" selection-end="229" vertical-scroll-proportion="0.16693944">
               <folding />
             </state>
           </provider>
@@ -168,8 +137,28 @@
       <file leaf-file-name="main.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="38" selection-start="506" selection-end="506" vertical-scroll-proportion="0.0">
+            <state line="5" column="8" selection-start="259" selection-end="570" vertical-scroll-proportion="0.0">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="actionbar.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/menu/actionbar.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="65" selection-start="105" selection-end="105" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Splash.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/bookstore/Splash.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="45" selection-start="145" selection-end="145" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -177,28 +166,16 @@
       <file leaf-file-name="contact.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/res/layout/contact.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="60" column="63" selection-start="2540" selection-end="2540" vertical-scroll-proportion="0.0">
+            <state line="101" column="58" selection-start="5504" selection-end="5504" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Contact.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/bookstore/Contact.java">
+      <file leaf-file-name="strings.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="61" selection-start="858" selection-end="858" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="method#onOptionsItemSelected#0;class#Contact#0" expanded="false" />
-                <element signature="method#onCreateOptionsMenu#0;class#Contact#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="R.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gen/com/bookstore/R.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="65" column="0" selection-start="2792" selection-end="2792" vertical-scroll-proportion="0.0">
+            <state line="9" column="45" selection-start="564" selection-end="564" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -207,43 +184,25 @@
       <file leaf-file-name="MainMenu.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/bookstore/MainMenu.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="64" selection-start="1090" selection-end="1090" vertical-scroll-proportion="0.0">
+            <state line="56" column="32" selection-start="1586" selection-end="1586" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="splash.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/layout/splash.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="55" selection-start="281" selection-end="281" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="66" selection-start="1666" selection-end="1666" vertical-scroll-proportion="0.51992583">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="storeinfo.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/layout/storeinfo.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="50" selection-start="560" selection-end="560" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="events.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/layout/events.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="4" selection-start="262" selection-end="405" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StoreInfo.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/bookstore/StoreInfo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="92" selection-start="702" selection-end="702" vertical-scroll-proportion="0.0">
+            <state line="6" column="67" selection-start="346" selection-end="346" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -269,30 +228,30 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/com/bookstore/BookstoreWebViewClient.java" />
-        <option value="$PROJECT_DIR$/res/layout/events.xml" />
-        <option value="$PROJECT_DIR$/src/com/bookstore/InitializeBrowser.java" />
-        <option value="$PROJECT_DIR$/src/com/bookstore/InitializeBrower.java" />
-        <option value="$PROJECT_DIR$/src/com/bookstore/Events.java" />
-        <option value="$PROJECT_DIR$/res/menu/refreshactionbar.xml" />
-        <option value="$PROJECT_DIR$/res/menu/actionbar.xml" />
-        <option value="$PROJECT_DIR$/src/com/bookstore/StoreInfo.java" />
-        <option value="$PROJECT_DIR$/res/layout/storeinfo.xml" />
-        <option value="$PROJECT_DIR$/res/layout/main.xml" />
-        <option value="$PROJECT_DIR$/src/com/bookstore/MainMenu.java" />
         <option value="$PROJECT_DIR$/gen/com/bookstore/R.java" />
+        <option value="$PROJECT_DIR$/src/com/bookstore/Map.java" />
+        <option value="$PROJECT_DIR$/src/com/bookstore/StoreInfo.java" />
+        <option value="$PROJECT_DIR$/src/com/bookstore/MapItemizedOverlay.java" />
+        <option value="$PROJECT_DIR$/res/layout/googlemaps.xml" />
+        <option value="$PROJECT_DIR$/res/layout/storeinfo.xml" />
+        <option value="$PROJECT_DIR$/src/com/bookstore/GoogleMap.java" />
+        <option value="$PROJECT_DIR$/res/menu/actionbar.xml" />
+        <option value="$PROJECT_DIR$/res/menu/refreshactionbar.xml" />
+        <option value="$PROJECT_DIR$/res/layout/splash.xml" />
+        <option value="$PROJECT_DIR$/src/com/bookstore/Splash.java" />
         <option value="$PROJECT_DIR$/res/values/strings.xml" />
-        <option value="$PROJECT_DIR$/src/com/bookstore/Contact.java" />
         <option value="$PROJECT_DIR$/res/layout/contact.xml" />
         <option value="$PROJECT_DIR$/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/src/com/bookstore/Contact.java" />
+        <option value="$PROJECT_DIR$/res/layout/order.xml" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1672" />
+    <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1066" />
-    <option name="height" value="1696" />
+    <option name="width" value="1616" />
+    <option name="height" value="916" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -336,16 +295,36 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BookStore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BookStore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="BookStore" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -438,34 +417,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="gen" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bookstore" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="PackagesPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BookStore" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BookStore" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -654,11 +605,11 @@
     </configuration>
     <configuration default="false" name="BookStore" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="BookStore" />
-      <option name="ACTIVITY_CLASS" value="com.bookstore.MainMenu" />
+      <option name="ACTIVITY_CLASS" value="com.bookstore.Splash" />
       <option name="MODE" value="specific_activity" />
       <option name="DEPLOY" value="true" />
       <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
-      <option name="PREFERRED_AVD" value="AVD3" />
+      <option name="PREFERRED_AVD" value="JellyBean" />
       <option name="COMMAND_LINE" value="" />
       <option name="WIPE_USER_DATA" value="false" />
       <option name="DISABLE_BOOT_ANIMATION" value="false" />
@@ -707,12 +658,12 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1672" y="-8" width="1066" height="1696" extended-state="6" />
+    <frame x="-8" y="-8" width="1616" height="916" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329859" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32567433" sideWeight="0.734375" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3243069" sideWeight="0.8730159" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.41280353" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -725,8 +676,8 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1918082" sideWeight="0.734375" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.265625" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18246293" sideWeight="0.8730159" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12698413" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -794,101 +745,104 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/bookstore/BookstoreWebViewClient.java">
+    <entry file="file://$PROJECT_DIR$/src/com/bookstore/MapItemizedOverlay.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="20" selection-start="380" selection-end="380" vertical-scroll-proportion="0.0" />
+        <state line="48" column="56" selection-start="1355" selection-end="1355" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files (x86)/Android/android-sdk/platforms/android-15/android.jar!/android/app/Activity.class">
+    <entry file="file://$PROJECT_DIR$/res/layout/googlemaps.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="19" selection-start="2293" selection-end="2293" vertical-scroll-proportion="0.0" />
+        <state line="6" column="32" selection-start="292" selection-end="292" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files (x86)/Android/android-sdk/platforms/android-15/android.jar!/android/app/Instrumentation.class">
+    <entry file="file://$PROJECT_DIR$/src/com/bookstore/GoogleMap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="111" column="16" selection-start="6167" selection-end="6167" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/menu/actionbar.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="10" selection-start="280" selection-end="280" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/bookstore/Events.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="92" selection-start="1844" selection-end="1844" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/menu/refreshactionbar.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="12" selection-start="444" selection-end="444" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="38" selection-start="506" selection-end="506" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/bookstore/MainMenu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="64" selection-start="1090" selection-end="1090" vertical-scroll-proportion="0.0" />
+        <state line="37" column="53" selection-start="1068" selection-end="1068" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/bookstore/StoreInfo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="92" selection-start="702" selection-end="702" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/events.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="4" selection-start="262" selection-end="405" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="34" column="50" selection-start="954" selection-end="954" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/storeinfo.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="50" selection-start="560" selection-end="560" vertical-scroll-proportion="0.0">
+        <state line="26" column="29" selection-start="1012" selection-end="1012" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/menu/refreshactionbar.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="36" selection-start="277" selection-end="277" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gen/com/bookstore/R.java">
+    <entry file="file://$PROJECT_DIR$/res/layout/splash.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="0" selection-start="2792" selection-end="2792" vertical-scroll-proportion="0.0">
+        <state line="7" column="55" selection-start="281" selection-end="281" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bookstore/MainMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="56" column="32" selection-start="1586" selection-end="1586" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bookstore/Splash.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="45" selection-start="145" selection-end="145" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="62" selection-start="258" selection-end="258" vertical-scroll-proportion="0.0">
+        <state line="9" column="45" selection-start="564" selection-end="564" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/bookstore/Contact.java">
+    <entry file="file://$PROJECT_DIR$/res/menu/actionbar.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="61" selection-start="858" selection-end="858" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="method#onOptionsItemSelected#0;class#Contact#0" expanded="false" />
-            <element signature="method#onCreateOptionsMenu#0;class#Contact#0" expanded="false" />
-          </folding>
+        <state line="2" column="65" selection-start="105" selection-end="105" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="8" selection-start="259" selection-end="570" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/contact.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="63" selection-start="2540" selection-end="2540" vertical-scroll-proportion="0.0">
+        <state line="101" column="58" selection-start="5504" selection-end="5504" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="66" selection-start="1666" selection-end="1666" vertical-scroll-proportion="0.51992583">
+        <state line="6" column="67" selection-start="346" selection-end="346" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bookstore/Contact.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="68" selection-start="1328" selection-end="1328" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/order.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="54" selection-start="229" selection-end="229" vertical-scroll-proportion="0.16693944">
           <folding />
         </state>
       </provider>

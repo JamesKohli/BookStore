@@ -2,14 +2,20 @@ package com.bookstore;
 
 import android.app.ActionBar;
 import android.app.Activity;
+import android.app.AlertDialog;
+import android.content.ActivityNotFoundException;
+import android.content.DialogInterface;
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TabHost;
 
 /**
  * Created with IntelliJ IDEA.
@@ -20,8 +26,10 @@ import android.widget.EditText;
 public class Contact extends Activity implements View.OnClickListener {
 
     private EditText subject, body;
-    private Button sendEmail;
+    private Button sendEmail, phone;
     String subjectString, bodyString;
+    TabHost tabHost;
+    TabHost.TabSpec tabSpec;
 
 
 
@@ -34,13 +42,39 @@ public class Contact extends Activity implements View.OnClickListener {
 
     }
 
+    private void callStore() {
+        try {
+            Intent callIntent = new Intent(Intent.ACTION_CALL);
+            callIntent.setData(Uri.parse("tel:17813757363"));
+            startActivity(callIntent);
+        } catch (ActivityNotFoundException e) {
+            Log.e("Call Store", "Call failed", e);
+        }
+    }
+
     private void initialize() {
+        initializeTabs();
         ActionBar actionBar = getActionBar();
         actionBar.setDisplayHomeAsUpEnabled(true);
         subject = (EditText) findViewById(R.id.etContactEmailSubject);
         body = (EditText) findViewById(R.id.etContactEmailBody);
         sendEmail = (Button) findViewById(R.id.bContactSendEmail);
         sendEmail.setOnClickListener(this);
+        phone = (Button) findViewById(R.id.bContactPhone);
+        phone.setOnClickListener(this);
+    }
+
+    private void initializeTabs() {
+        tabHost = (TabHost) findViewById(R.id.thContact);
+        tabHost.setup();
+        tabSpec = tabHost.newTabSpec("tab1");
+        tabSpec.setContent(R.id.rlContact1);
+        tabSpec.setIndicator("Email us");
+        tabHost.addTab(tabSpec);
+        tabSpec = tabHost.newTabSpec("tab2");
+        tabSpec.setContent(R.id.llContact1);
+        tabSpec.setIndicator("Call us");
+        tabHost.addTab(tabSpec);
     }
 
     @Override
@@ -72,6 +106,10 @@ public class Contact extends Activity implements View.OnClickListener {
             case R.id.bContactSendEmail:
                 initializeEmailString();
                 break;
+            case R.id.bContactPhone:
+                callStore();
+                break;
+
         }
 
     }

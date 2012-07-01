@@ -7,6 +7,8 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.Button;
 
 /**
  * Created with IntelliJ IDEA.
@@ -14,13 +16,20 @@ import android.view.MenuItem;
  * Date: 6/4/12
  * Time: 11:56 AM
  */
-public class StoreInfo extends Activity {
+public class StoreInfo extends Activity implements View.OnClickListener {
+
+
+    Button googleMap;
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);    //To change body of overridden methods use File | Settings | File Templates.
         ActionBar actionBar = getActionBar();
         actionBar.setDisplayHomeAsUpEnabled(true);
         setContentView(R.layout.storeinfo);
+        googleMap = (Button) findViewById(R.id.bStoreInfoGetDirections);
+        googleMap.setOnClickListener(this);
     }
 
     @Override
@@ -43,5 +52,11 @@ public class StoreInfo extends Activity {
         inflater.inflate(R.menu.actionbar, menu);
         return true;
 
+    }
+
+    @Override
+    public void onClick(View view) {
+        Intent mapIntent = new Intent(StoreInfo.this, GoogleMap.class);
+        startActivity(mapIntent);
     }
 }

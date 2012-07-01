@@ -24,7 +24,7 @@
     <Button
             android:layout_height="wrap_content"
             android:layout_width="fill_parent"
-            android:text="Get Directions"
+            android:text="Map"
             android:layout_alignParentBottom="true"
             android:id="@+id/bStoreInfoGetDirections"
             />

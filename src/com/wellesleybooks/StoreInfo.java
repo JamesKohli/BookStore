@@ -1,4 +1,4 @@
-package com.bookstore;
+package com.wellesleybooks;
 
 import android.app.ActionBar;
 import android.app.Activity;

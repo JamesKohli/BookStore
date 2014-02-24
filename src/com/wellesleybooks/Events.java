@@ -1,4 +1,4 @@
-package com.bookstore;
+package com.wellesleybooks;
 
 import android.app.ActionBar;
 import android.app.Activity;
@@ -8,7 +8,6 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.webkit.WebView;
-import android.webkit.WebViewClient;
 import android.widget.TabHost;
 
 /**
@@ -17,13 +16,15 @@ import android.widget.TabHost;
  * Date: 6/3/12
  * Time: 3:53 PM
  */
-public class Events extends Activity {
+public class Events extends Activity implements TabHost.OnTabChangeListener {
 
     private WebView info, events, blog;
     private TabHost tabHost;
     private TabHost.TabSpec tabSpec;
     private LoadBrowsers loadBrowsers;
     Thread browserThread;
+    String currentTab;
+    WebView webView;
 
 
     @Override
@@ -38,6 +39,7 @@ public class Events extends Activity {
     private void initialize() {
         initializeTabs();
         initializeBrowsers();
+        webView = info;
     }
 
     @Override
@@ -50,6 +52,14 @@ public class Events extends Activity {
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
 
+        if (currentTab.equals("tab1")){
+            webView = info;
+        }  else if (currentTab.equals("tab2")) {
+            webView = blog;
+        }   else if (currentTab.equals("tab3")){
+            webView = events;
+        }
+
         switch (item.getItemId()) {
             case android.R.id.home:
                 // app icon in action bar clicked; go home
@@ -58,7 +68,14 @@ public class Events extends Activity {
                 startActivity(intent);
                 return true;
             case R.id.refresh:
+                webView.loadUrl("javascript:window.location.reload( true )");
+                return true;
+            case R.id.back:
+                webView.goBack();
+                return true;
+            case R.id.cancel:
                 browserThread.run();
+                return true;
             default:
                 return super.onOptionsItemSelected(item);
         }
@@ -68,7 +85,9 @@ public class Events extends Activity {
         info = (WebView) findViewById(R.id.wvEventsInfo);
         blog = (WebView) findViewById(R.id.wvEventsBlog);
         events = (WebView) findViewById(R.id.wvEventsEvents);
-
+        info.getSettings().setBuiltInZoomControls(true);
+        blog.getSettings().setBuiltInZoomControls(true);
+        events.getSettings().setBuiltInZoomControls(true);
 
         loadBrowsers = new LoadBrowsers(info, blog, events);
         browserThread = new Thread(loadBrowsers);
@@ -77,11 +96,6 @@ public class Events extends Activity {
 
     }
 
-    @Override
-    protected void onPause() {
-        super.onPause();    //To change body of overridden methods use File | Settings | File Templates.
-        finish();
-    }
 
     private void initializeTabs() {
         tabHost = (TabHost) findViewById(R.id.thEvents);
@@ -98,6 +112,13 @@ public class Events extends Activity {
         tabSpec.setContent(R.id.llEventsEvents);
         tabSpec.setIndicator("Events");
         tabHost.addTab(tabSpec);
+        tabHost.setOnTabChangedListener(this);
+        currentTab = "tab1";
+    }
+
+    @Override
+    public void onTabChanged(String s) {
+        currentTab = s;
     }
 
     private class LoadBrowsers implements Runnable {
@@ -118,7 +139,7 @@ public class Events extends Activity {
             info.getSettings().setLoadWithOverviewMode(true);
             info.getSettings().setUseWideViewPort(true);
             try{
-                info.loadUrl("http://archive.constantcontact.com/fs032/1104982944822/archive/1110056827386.html");
+                info.loadUrl("http://archive.constantcontact.com/fs144/1104982944822/archive/1111838206418.html");
             } catch (Exception e){
                 e.printStackTrace();
             }

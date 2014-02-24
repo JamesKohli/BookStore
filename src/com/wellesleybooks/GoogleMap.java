@@ -1,17 +1,14 @@
-package com.bookstore;
+package com.wellesleybooks;
 
 import android.app.ActionBar;
 import android.content.Intent;
 import android.graphics.drawable.Drawable;
 import android.location.Address;
-import android.location.Geocoder;
 import android.os.Bundle;
 import android.view.MenuItem;
 import com.google.android.maps.*;
 
-import java.io.IOException;
 import java.util.List;
-import java.util.Locale;
 
 /**
  * Created with IntelliJ IDEA.
@@ -37,12 +34,12 @@ public class GoogleMap extends MapActivity {
         MapView mapView = (MapView) findViewById(R.id.mapview);
         mapView.setBuiltInZoomControls(true);
         MapController mapController = mapView.getController();
-        GeoPoint point = new GeoPoint(42296048,-71297268);
+        GeoPoint point = new GeoPoint(42295938,-71297368);
         mapController.setCenter(point);
         mapController.setZoom(15);
 
         List<Overlay> mapOverlays = mapView.getOverlays();
-        Drawable drawable = this.getResources().getDrawable(R.drawable.androidmarker);
+        Drawable drawable = this.getResources().getDrawable(R.drawable.maparrow);
         MapItemizedOverlay itemizedoverlay = new MapItemizedOverlay(drawable, this);
 
 

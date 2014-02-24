@@ -1,4 +1,4 @@
-package com.bookstore;
+package com.wellesleybooks;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -60,6 +60,8 @@ public class MainMenu extends Activity implements View.OnClickListener {
                 startActivity(newsIntent);
                 break;
             case R.id.bMainOrders:
+                Intent orderIntent = new Intent(MainMenu.this, Order.class);
+                startActivity(orderIntent);
                 break;
             case R.id.bMainStoreInfo:
                 Intent infoIntent = new Intent(MainMenu.this, StoreInfo.class);

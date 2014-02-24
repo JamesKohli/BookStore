@@ -1,10 +1,8 @@
-package com.bookstore;
+package com.wellesleybooks;
 
 import android.app.ActionBar;
 import android.app.Activity;
-import android.app.AlertDialog;
 import android.content.ActivityNotFoundException;
-import android.content.DialogInterface;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
@@ -45,7 +43,7 @@ public class Contact extends Activity implements View.OnClickListener {
     private void callStore() {
         try {
             Intent callIntent = new Intent(Intent.ACTION_CALL);
-            callIntent.setData(Uri.parse("tel:17813757363"));
+            callIntent.setData(Uri.parse("tel:17814311160"));
             startActivity(callIntent);
         } catch (ActivityNotFoundException e) {
             Log.e("Call Store", "Call failed", e);
@@ -118,8 +116,10 @@ public class Contact extends Activity implements View.OnClickListener {
         subjectString = "[Android] " + subject.getText().toString();
         bodyString = body.getText().toString();
 
+
+
         Intent emailIntent = new Intent(Intent.ACTION_SEND);
-        emailIntent.putExtra(Intent.EXTRA_EMAIL, R.string.wellesleyemail);
+        emailIntent.putExtra(Intent.EXTRA_EMAIL, new String[]{getString(R.string.wellesleyemail)});
         emailIntent.putExtra(Intent.EXTRA_SUBJECT, subjectString);
         emailIntent.setType("plain/text");
         emailIntent.putExtra(Intent.EXTRA_TEXT, bodyString);
